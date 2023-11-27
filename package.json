@@ -1,0 +1,21 @@
+{
+  "name": "wellness",
+  "version": "1.0.0",
+  "description": "Aplicacion para ayudar a los jovenes con una actividad sedentaria.",
+  "main": "showData.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Kevin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

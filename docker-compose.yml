@@ -1,0 +1,10 @@
+version: '1'
+services:
+  wts_api:
+    build: .
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app
+    environment:
+      PORT: 3000
